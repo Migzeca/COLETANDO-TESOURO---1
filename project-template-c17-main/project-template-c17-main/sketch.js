@@ -78,7 +78,7 @@ function draw() {
             //aumente a treasureCollection para 150
       treasureCollection=treasureCollection+150;
           }
-    else{
+    else if
       if(swordGroup.isTouching(boy)) {
 //Mude o gameState (estado do jogo) para End
       gameState = END;
