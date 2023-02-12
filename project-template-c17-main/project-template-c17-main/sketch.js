@@ -82,7 +82,7 @@ function draw() {
       if(swordGroup.isTouching(boy)) {
 //Mude o gameState (estado do jogo) para End
       gameState = END;
-
+ }
      if(gameState===END){
       cashG.destroyEach(0);
       diamondsG.destroyEach(0);
@@ -94,7 +94,7 @@ function draw() {
       jwelleryG.setVelocityEach(0);
       swordGroup.setVelocityEach(0);
 
-     }
+    
 //destrua todos os grupos
 
 // defina setvelocityEach como 0 para todos os grupos
